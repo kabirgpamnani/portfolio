@@ -1,24 +1,32 @@
-import logo from './logo.svg';
+import React from 'react';
+import { ChakraProvider } from '@chakra-ui/react';
+import Navbar from './components/Navbar';
+import CenterContent from './components/CenterContent';
+import Projects from './components/Projects';
+import { Element } from 'react-scroll';
+import About from './components/About';
 import './App.css';
+import Experience from './components/Experience';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ChakraProvider>
+      <div className="App">
+        <Navbar />
+        <Element name="home">
+          <CenterContent />
+        </Element>
+        <Element name="about">
+          <About />
+        </Element>
+        <Element name="experience">
+          <Experience />
+        </Element>
+        <Element name="projects">
+          <Projects />
+        </Element>
+      </div>
+    </ChakraProvider>
   );
 }
 

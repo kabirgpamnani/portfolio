@@ -1,0 +1,51 @@
+a:hover,
+a:hover h4,
+a:hover p,
+a:hover span,
+a:hover .badge {
+    text-decoration: none;
+}
+
+.entireExperience {
+    background-color: #0f172a;
+    /* Dark background color similar to your screenshot */
+    color: white;
+    /* Ensures text color is white */
+    min-height: 100vh;
+    padding: 60px 20px 20px 20px; /* Added padding-top to move content down */
+    font-family: 'Courier New';
+}
+
+
+.experience-page {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.experience-nav {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.experience-nav .line {
+    flex-grow: 1;
+    height: 2px;
+    background-color: white;
+    margin-right: 10px;
+    margin-left: 10px
+}
+
+.experience-nav p {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.experience-grid {
+    display: flex;
+    flex-direction: column;
+    /* Stacks cards one on top of the other */
+    gap: 20px;
+    /* Space between each card */
+}

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0f172a;
+    /* Light gray background */
+    padding: 10px 50px;
+    height: 50px;
+    /* Adjust height as necessary */
+    font-family: 'Courier';
+    color: rgb(202, 205, 208);
+    position: fixed;
+    /* Keep navbar fixed at the top */
+    top: 0;
+    /* Ensure it sticks to the top of the viewport */
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    
+    /* Adjust z-index if needed */
+}
+
+.navbar-logo {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    /* Ensure it takes the full height of the navbar */
+}
+
+.navbar-menu {
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    /* Positioning absolute to center it */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.navbar-contact {
+    font-size:18px;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+    /* Ensure it takes the full height of the navbar */
+}
+
+.navbar-contact p {
+    margin: 0;
+}
