@@ -1,0 +1,22 @@
+/* .about-section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: #bfbfbc;
+    color: white;
+    padding: 40px;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 100vh;
+} */
+
+.entireAbout {
+    background-color: #0f172a;
+    /* Dark background color similar to your screenshot */
+    /* color: white; */
+    /* Ensures text color is white */
+    min-height: 100vh;
+    padding: 40px 20px 20px 20px; /* Added padding-top to move content down */
+    font-family: 'Courier New';
+}
