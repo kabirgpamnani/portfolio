@@ -8,7 +8,7 @@ const About = () => {
     <div className="entireAbout">
       <Box
         bg="#0f172a"
-        color="white"
+        color="rgb(202, 205, 208)"
         minHeight="100vh"
         padding={{ base: 4, md: 8 }}
       >
@@ -26,7 +26,7 @@ const About = () => {
           templateColumns={{ base: "1fr", md: "1fr 1fr" }}
           gap={6}
           fontFamily="Courier"
-          textColor="#A0A0B0"
+          color="rgb(202, 205, 208)"
           letterSpacing={-0.5}
         >
           <GridItem
@@ -50,10 +50,12 @@ const About = () => {
                 Kabir Pamnani
               </Heading>
               <Text fontSize="xl" mb={2} color="rgb(202, 205, 208)">
-                Senior at Tufts University
+                <b>CS Major at Tufts University</b>
               </Text>
               <Text fontSize="md" mb={4}>
-                I'm passionate about building aesthetic full-stack web-apps.
+                • Born in Singapore <br></br>• Graduate of UWCSEA <br></br>•
+                Completed 2 year Singapore military<br></br>• Current senior
+                studying CS
               </Text>
               <Image
                 src={profile}
@@ -62,7 +64,7 @@ const About = () => {
                 boxSize="250px"
                 mt={18}
                 ml={10}
-                border="4px solid white"
+                border="4px solid rgb(202, 205, 208)"
               />
             </Box>
           </GridItem>
@@ -76,36 +78,29 @@ const About = () => {
           >
             <Box maxWidth="550px">
               <Text fontSize="md" mb={4}>
-                I was introduced to the world of programming in 9th Grade when I
+                My first introduction to programming was in 9th Grade when I
                 took my first Computer Science class. For many years,
-                programming was nothing to me but a bunch of If-else statements
-                with little-to-no practical applications. I wasn't inspired by
-                the field, and considered switching my area of study.
+                programming was nothing to me but a bunch of if-else statements.
+                I had no understanding of its significance, and more
+                importantly, its power as a tool to create.
               </Text>
               <Text fontSize="md" mb={4}>
-                This all changed the moment I started to work on projects that
-                added value for clients. Through working at a range of companies
-                including <b color="rgb(202, 205, 208)">AVPN</b>,{" "}
-                <b color="rgb(202, 205, 208)">EY</b>, and{" "}
-                <b color="rgb(202, 205, 208)">Nintex</b>, I learned to build and
-                deliver products for a diverse range of clients. It was these
-                experiences that demonstrated the ability of technology to
-                change the lives of others.
+                However, my perspective shifted dramatically once I started
+                creating impactful solutions for clients at companies like{" "}
+                <b color="white">AVPN</b>, <b color="white">EY</b>, and{" "}
+                <b color="white">Nintex</b>. These experiences showcased the
+                transformative power of technology and fueled my passion for
+                developing apps that enhance user experiences—each solution I
+                create is a step towards making someone’s life easier.
               </Text>
               <Text fontSize="md" mb={4}>
-                Since this realization, I've been driven to create apps that aim
-                to ease user experiences. If I can create something that will
-                solve even just one person’s problem, I consider that a victory.
-              </Text>
-              <Text fontSize="md" mb={4}>
-                Other than programming, I'm either playing padel, cooking,
+                Apart from programming, I'm either playing pádel, cooking,
                 DJ-ing or watching any and every major sports tournament.
               </Text>
               <Text fontSize="md" mb={4}>
-                This site is not just intended to be a showcase of my endeavors
-                as a programmer, but rather a documentation of all of my feats
-                (and setbacks) as I navigate through this beautiful gift of
-                life.
+                Welcome to a brief insight into my life. This website is
+                intended to be a living record of my achievements (and
+                challenges) as I navigate the extraordinary journey of life.
               </Text>
             </Box>
           </GridItem>

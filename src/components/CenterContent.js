@@ -62,7 +62,7 @@ function CenterContent() {
         </ChakraLink>
         <ChakraLink
           as={ScrollLink}
-          to="skills"
+          to="contact"
           smooth={true}
           duration={20}
           _hover={{
