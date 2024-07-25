@@ -85,22 +85,23 @@ const About = () => {
                 importantly, its power as a tool to create.
               </Text>
               <Text fontSize="md" mb={4}>
-                However, my perspective shifted dramatically once I started
-                creating impactful solutions for clients at companies like{" "}
+                However, my perspective changed once I started creating
+                impactful solution for clients at companies like{" "}
                 <b color="white">AVPN</b>, <b color="white">EY</b>, and{" "}
                 <b color="white">Nintex</b>. These experiences showcased the
                 transformative power of technology and fueled my passion for
-                developing apps that enhance user experiences—each solution I
-                create is a step towards making someone’s life easier.
+                developing apps that enhance user experiences. If I can make
+                even one person's life easier, I see that as meaningful.
               </Text>
               <Text fontSize="md" mb={4}>
-                Apart from programming, I'm either playing pádel, cooking,
-                DJ-ing or watching any and every major sports tournament.
+                When I'm not programming, I'm either playing pádel, cooking,
+                meditating or watching any and every major sports tournament.
               </Text>
               <Text fontSize="md" mb={4}>
-                Welcome to a brief insight into my life. This website is
-                intended to be a living record of my achievements (and
-                challenges) as I navigate the extraordinary journey of life.
+                This website is intended to be a living record of my
+                achievements (and challenges) as I navigate this beautiful gift
+                of life. Hope you enjoy learning about my journey as much as I
+                enjoy living it.
               </Text>
             </Box>
           </GridItem>
