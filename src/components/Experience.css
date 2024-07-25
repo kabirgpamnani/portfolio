@@ -12,7 +12,7 @@ a:hover .badge {
     color: white;
     /* Ensures text color is white */
     min-height: 100vh;
-    padding: 60px 20px 20px 20px; /* Added padding-top to move content down */
+    padding: 30px 20px 20px 20px; /* Added padding-top to move content down */
     font-family: 'Courier New';
 }
 
